@@ -14,8 +14,8 @@ def generate_otp():
 # Send OTP
 def send_otp():
     global otp_sent  # Declare otp_sent as a global variable
-    email_address = "ritiksingh322001@gmail.com"
-    email_password = "eedx odxk kswq anjq"
+    email_address = "Enter Your Email Address"
+    email_password = "Enter Your APP Password"
     recipient_email = email_entry.get()
     subject = "OTP"
 
